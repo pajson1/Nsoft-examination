@@ -87,5 +87,3 @@ socketClient.on("state", function (data) {
         }
     }
 });
-
-
