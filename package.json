@@ -1,18 +1,17 @@
 {
-  "name": "system-dev-server",
+  "name": "test-exam-server",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chrome-launcher": "^0.11.2",
     "express": "^4.17.1",
-    "ps-node": "^0.1.6",
-    "request": "^2.88.0",
+    "http": "0.0.0",
+    "socket.io": "^2.2.0",
     "socket.io-client": "^2.2.0"
   }
 }
